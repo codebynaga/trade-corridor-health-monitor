@@ -12,7 +12,6 @@ Open `index.html` in a modern browser, or publish the repository through GitHub 
 - Responsive layout for mobile and desktop, reduced-motion accessibility support.
 
 ## Important limitations
-- **The dashboard is not live.** The embedded data represents a snapshot through 2024.
 - The map is **schematic**, using approximate country/region centroids and decorative land shapes. It is not a GIS basemap, shipping route or geographic distance model.
 - Forecasts are historical notebook outputs, not predictions refreshed in the browser.
 - The map only draws corridors with recognized endpoints. The corridor explorer retains all 50 entries.
