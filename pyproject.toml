@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trade-corridor-health-monitor"
+version = "1.0.0"
+description = "Research dashboard and validation utilities for trade corridor exposure and growth forecasting"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2.0,<3", "scikit-learn>=1.3,<2", "matplotlib>=3.7,<4", "seaborn>=0.12,<1", "scipy>=1.10,<2", "jupyterlab>=4,<5", "ipykernel>=6,<8", "ipython>=8,<10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
