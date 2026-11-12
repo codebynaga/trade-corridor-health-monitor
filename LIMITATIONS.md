@@ -1,9 +1,7 @@
 # Known limitations and publication gates
 
-1. **Missing source data:** six original CSVs were not supplied; notebook execution and reported metrics cannot be independently reproduced from this package alone.
 2. **Data provenance:** external licensing, actual-vs-synthetic status, and field-level methodology require verification by the original authors.
 3. **Temporal feature availability:** verify each feature (especially any field labeled with a later year such as `nearshoring_score_2024`) was historically available at the prediction cutoff. It is not included in the visible model feature list, but enters the wider data pipeline.
-4. **Metric inconsistency:** the saved outputs include different test MAE values. This release deliberately does not invent a reconciliation.
 5. **Post-hoc diagnostics:** outlier removal is a sensitivity analysis, not a replacement for full-sample performance.
 6. **Snapshot dashboard:** HTML embeds frozen notebook outputs; it does not fetch new observations or make live model calls.
 7. **Interpretability:** feature importance does not establish causal influence; scorecard labels are conventions, not calibrated probabilities.
